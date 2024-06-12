@@ -49,6 +49,12 @@ def process_fnb_file(file_path):
     df["Account Number"] = acc_number
     df["Account Name"] = acc_name
 
+    # Strip whitespace from 'Description' column
+    df['Description'] = df['Description'].str.strip()
+    df['Transaction Type'] = "FNB Generic"
+    df.loc[df['Description'].str.startswith('#'), 'Transaction Type'] = "Fee"
+
+
     return df
 
 def process_discovery_file(file_path):
@@ -127,6 +133,7 @@ def process_cash_file(file_path):
     # Add new columns to the DataFrame using the extracted values
     df["Account Number"] = "Cash Account"
     df["Account Name"] = "Cash Transactions"
+    df["Transaction Type"] = "Cash"
 
     return df
 
@@ -155,50 +162,62 @@ def process_files_in_folder(folder_path, process_function):
 
 def process_combined_dataframe(df, mappings):
     """
-    Process the combined DataFrame and add a Category column based on Transaction Type and Description.
+    Process the combined DataFrame and add Payment and Category columns based on Transaction Type and Description.
 
     Parameters:
     df (pd.DataFrame): Combined DataFrame containing transactions.
     mappings (dict): Mappings dictionary loaded from JSON file.
 
     Returns:
-    pd.DataFrame: Processed DataFrame with added Category column.
+    pd.DataFrame: Processed DataFrame with added Payment and Category columns.
     """
     # Format the combined Date column to YYYY/MM/DD
     if 'Date' in df.columns:
         df['Date'] = pd.to_datetime(df['Date'], errors='coerce').dt.strftime('%Y/%m/%d')
 
-    # Get category mappings
-    category_mapping = mappings.get('category_mapping', {})
-
-    # Function to apply the category mapping loosely
+    # Function to apply the category mapping
     def apply_category(row):
         transaction_type = row['Transaction Type']
         description = row['Description']
 
-        if not isinstance(description, str):
-            description = str(description)  # Convert to string if not already
+        if transaction_type in ["Apple Pay", 'POS Purchase', "FNB Generic"]:
+            categories = mappings['Transaction Map']["Payments"]
+            for category, descriptions in categories.items():
+                for my_description, bank_descriptions in descriptions.items():
+                    for bank_description in bank_descriptions:
+                        bank_description = bank_description.strip().lower()
+                        if bank_description.strip().lower() in description.strip().lower():
+                            return category, my_description
 
-        description = description.strip().lower()  # Strip whitespace and convert to lowercase
+        elif transaction_type in mappings['Transaction Map']:
+            categories = mappings['Transaction Map'][transaction_type]
+            for category, descriptions in categories.items():
+                for my_description, bank_descriptions in descriptions.items():
+                    if transaction_type == 'Transfer':
+                        return "Transfer", "Transfer"
+                    elif transaction_type == 'EFT':
+                        for bank_description in bank_descriptions:
+                            if bank_description.strip().lower() in description.strip().lower():
+                                return category, description
+                            else:
+                                 return "Uncatagorised", description
+                    else:
+                        for bank_description in bank_descriptions:
+                            bank_description = bank_description.strip().lower()
+                            if bank_description.strip().lower() in description.strip().lower():
+                                return category, my_description
 
-        for key_transaction_type, key_descriptions in category_mapping.items():
-            for key_description, category in key_descriptions.items():
-                key_description = key_description.strip().lower()  # Strip whitespace and convert to lowercase
+        return 'Unknown', 'Unknown'  # Default category and description if no match found
 
-                if (key_transaction_type == '' or transaction_type == key_transaction_type) and key_description in description:
-                    return category
-
-        return 'Unknown'  # Default category if no match found
-
-    # Apply the mapping to create the Category column
-    df['Category'] = df.apply(apply_category, axis=1)
+    # Apply the mapping to create the Category and Payment columns
+    df[['Category', 'Payment']] = df.apply(lambda row: apply_category(row), axis=1, result_type='expand')
 
     # Select columns of interest and save to CSV
-    df = df.loc[:, ['Date', 'Account Name', 'Account Number', 'Transaction Type', 'Description', 'Amount', 'Category']]
-    #df = df.loc[:, ['Date', 'Description', 'Amount', 'Category', 'Account Name']]
+    df = df.loc[:, ['Date', 'Account Name', 'Account Number', 'Transaction Type', 'Description', 'Amount', 'Category', 'Payment']]
     df.to_csv("Transactions.csv", index=False)
 
     return df
+
 
 def transaction_statistics(df):
     # Group by Category and calculate count and total amount
@@ -211,10 +230,11 @@ def transaction_statistics(df):
     stats = stats.sort_values(by='Count', ascending=False)
 
     # Print the results
-    print(f"{'Category':<20} {'Count':<10} {'Total Amount':<15}")
-    print('-' * 45)
-    for index, row in stats.iterrows():
-        print(f"{index:<20} {row['Count']:<10} {row['Total Amount']:<15.2f}")
+    # print(f"{'Category':<20} {'Count':<10} {'Total Amount':<15}")
+    # print('-' * 45)
+    # for index, row in stats.iterrows():
+    #     print(f"{index:<20} {row['Count']:<10} {row['Total Amount']:<15.2f}")
+
 
 def main():
     # Define the folder paths
@@ -235,11 +255,16 @@ def main():
     combined_df = pd.concat(all_dfs, ignore_index=True).drop_duplicates().reset_index(drop=True)
     processed_df = process_combined_dataframe(combined_df, mappings)
 
+    output_df = processed_df[['Date', 'Description', 'Amount', 'Category', 'Account Name']]
+    output_df.to_csv("Budget.csv", index=False)
+
+
     transaction_statistics(processed_df)
 
-    # Print the first few rows of relevant columns for verification where Category is "Unknown"
-    unknown_df = processed_df.loc[processed_df['Category'] == 'Unknown', ["Transaction Type", "Description", "Date"]].sort_values(by='Date', ascending=False)
-    print(unknown_df.head())
+    cash_transactions = processed_df[((processed_df['Category'] == 'Unknown') | (processed_df['Payment'] == 'Unknown'))].sort_values(by='Date', ascending=False)
+
+    print(cash_transactions[
+              ["Transaction Type", "Description", "Date"]])
 
     return df_fnb, df_discovery, df_standard_bank, df_cash, processed_df
 

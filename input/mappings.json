@@ -1,185 +1,328 @@
 {
-    "category_mapping": {
-        "": {
-            "AB BRAUDE": "Monthly Kickback",
-            "M BRAUDE CONSULTING": "aCoin Salary",
-            "CDP PAYROLL": "CDP Salary",
-
-            "ENGEN BBQ DOWNS": "Engen",
-            "ENGEN Precinct": "Engen",
-            "ENGEN CATO RIDGE ON": "Engen",
-            "ENGEN BERGVIEW ONE": "Engen",
-            "ENGEN KYALAMI CONVENIE KYALAMI": "Engen",
-            "BP MELROSE": "BP",
-            "BP RIDGE OASIS": "BP",
-            "BP BIRNAM": "BP",
-            "BP Midrand": "BP",
-            "SHELL SUNNINGHILL": "Shell",
-
-            "WOOLWORTHS": "Woolworths",
-            "WOOLWORTHS MELROSE ARC SANDTON": "Woolworths",
-            "Checkers": "Checkers",
-            "Pick n Pay": "Pick n Pay",
-            "PnP Fam Midway Mews": "Pick n Pay",
-            "Pnp Exp Birnam Park": "Pick n Pay",
-            "SuperSpar": "Spar",
-            "FLM CHILLI ON TOP": "Food Lovers",
-            "FLM WATERFALL RIDGE": "Food Lovers",
-            "FLM ML Waterfall Ridge MIDRAND": "Food Lovers",
-            "THE BERLINER BUTCHERY S JOHANNESBURG": "Berliner",
-
-            "Dischem Sunninghill": "Dischem",
-            "Dischem Victory Park VICTORY PARK": "Dischem",
-            "Dischem Athol Oaklands BIRNAM": "Dischem",
-            "Clicks": "Clicks",
-            "CLICKS CRESTA CENTRE Gauteng": "Clicks",
-            "BWH RIVONIA": "Builders Warehouse",
-
-            "DR VINOLA NAIDOO": "Logan Doctor",
-
-            "MR D FOOD": "Mr D",
-            "Uber Eats": "Uber Eats",
-            "CHICKEN LICKE MIDWAY MEWS GAUTENG": "Chicken Licken (Midway Mews)",
-            "MOCHACHOS": "Mochachos",
-            "Nandos": "Nandos",
-            "KFC VORN464943 Halfway House": "KFC",
-            "SPUR TAKE AWAY": "Spur",
-            "ROCKY MOUNTAIN SPUR": "Spur",
-            "LONE CREEK SPUR GAUTENG": "Spur",
-            "YUNG CHEN TAKEAWAYS": "Yung Chen",
-            "KUNG FU KITCHEN MIDRAND": "Kung Fu Kitchen (Midrand)",
-            "SIMPLY ASIA SOUTHDO": "Simply Asia (Mall of Africa)",
-            "RONG HING CHINESE": "Rong Hing (Midrand)",
-            "GOLDEN ROSE Johannesburg": "Golden Rose",
-            "PIZZA DEL FORNO SUNNING": "Pizza Del Forno (Sunninghill)",
-            "McDonalds": "Mc Donalds",
-            "MCD Waterfall": "Mc Donalds (Waterfall)",
-            "MCD Mall of Africa": "Mc Donalds (Mall of Africa)",
-            "MCD Chilli on": "Mc Donalds (Chilli on Top)",
-            "MCDONALDS CHILLI ON": "Mc Donalds (Chilli on Top)",
-            "CASA DAS NATAS SAND": "Casa das Natas (Sandton)",
-            "CASA DAS NATAS MALL OF JOHANNESBURG": "Casa Das Natas",
-            "KRISPY KREME": "Krispy Kreme",
-            "CHATEAU GATEAUX WAT": "Cateau Gateaux (Waterfall)",
-            "HAAGEN DAZS MIDRAN": "Haagen Dazs",
-            "Streatery": "Streatery",
-            "OZZYS KITCHEN WYNBERG": "Ozzy's Kitchen",
-            "FIREROOM MALL OF AFRICA": "Fireroom",
-            "THE COURIER RESTAURANT Johannesburg": "Swiss Country Club",
-
-            "Takealo*t           410588*6433": "Takealot",
-            "MRP E-COMMERC": "Mr Price (Online)?",
-
-            "HOME ESSENTIAL KYALAMI BARBEQUE DOWN": "Home Essentials (BBQ Downs)",
-            "TOYS R US": "Toys R Us",
-            "TOYZONE WATERFALL VORNA VALLEY": "Toyzone",
-            "THE CRAZY STORE XMIDRA MIDRAND": "Crazy Store",
-            "CRAZY STORE VICTORY PA VICTORY PARK": "Crazy Store",
-            "ISTORE MALL OF AF51294 Halfway House": "iStore Mall of Africa",
-
-            "BOUNCE INC": "Bounce",
-
-            "SU SCHOOL FEES": "Kohli School Fees",
-            "FOUNDERS  SD10051398": "Kohli School Fees",
-            "TAPTUCK": "Kohli Tuckshop",
-            "Little Kickers": "Little Kickers",
-            "Kyalami Kids": "Kyalami Kids",
-            "Vailet": "Vailet",
-            "Grace": "Grace",
-
-            "BYC DEBIT": "Bank Your Change",
-            "DISCBANK  00000017275813806": "Credit Card Payment",
-            "CR CARD PAYMENT": "Credit Card Payment",
-
-            "#MONTHLY ACCOUNT FEE": "Monthly Account Fee",
-            "#MONTHLY Credit FEE": "Monthly Credit Fee",
-            "#INT PYMT FEE": "International Payment Fee?",
-            "#SERVICE FEES": "Service Fees",
-            "INT ON DEBIT BALANCE": "Interest",
-
-            "FUSION INTEREST REBATE": "Interest Rebate",
-
-            "APPLE.COM": "Apple",
-            "ADOBE": "Adobe",
-            "PlaystationN": "Play Station",
-            "STEAMGAMES.C 410588*6433": "Steam",
-            "FIRESTREAM": "Internet",
-            "PLEX BOXEE": "Plex",
-            "PYTHONANYWHERE": "Python Server",
-
-            "AIRTIME": "Airtime",
-            "POWERBALL": "Lotto",
-
-            "PLUSH MELROSE ARCH JOHANNESBURG": "Car Wash",
-            "Airport parking": "Parking",
-            "SANDTON CITY PARKING": "Parking",
-            "FEDERAL PARKING SERVICES FOURWAYS": "Parking",
-
-            "MELROSE ARCH FLOWER MA": "Flower Shop (Melrose Arch)",
-
-            "COJ CITY PARK": "Zoo?",
-            "WILD WAVE WATERPARK": "Waterpark",
-            "WILD COAST SUN HOTE": "Wilcoast Sun Hotel",
-            "THE ESTUARY HOTEL": "Estuary Hotel",
-            "THE MAGNOLIA FARM T": "Magnolia Farm?",
-            "SUNSHINE CLOTHING": "Sunshine Clothing",
-            "SENTRA PORT EDWAR37": "Supermarket in Port Edward",
-            "Yoco   *EST ELLE Jewel Fourways": "Elle Jewel - Gift",
-            "Yoco   *Earth Yoga Pty Midrand": "Earth Yogs? - Water and snack sat swimschool?",
-
-            "COUNSELLING": "Councelling",
-            "TASH": "Tash",
-            "LOGAN BIRTHDAY": "Logan Birthday",
-            "TOILET HIRE": "Toilet Hire",
-            "ACCOMMODATION": "Accomodation",
-            "Couch": "New Couch",
-            "CTM - BATHROOM SINK": "Bathroom Sink",
-            "DHA DISCOVERY BANK SANDTON": "Discovery Home Affairs",
-            "China Mall - Wig": "Wig from China Mall",
-            "aCoin": "aCoin Deposit"
-        },
-        "MEDICAL AID REFUND": {
-            "DISC MEMB": "Medical Aid Refund"
-        },
-        "MONTHLY MANAGEMENT FEE": {
-            "": "Monthly Account Fee"
-        },
-        "Fee": {
-            "Vitality Money Premium": "Vitality Money Premium",
-            "Credit Service Fee": "Credit Service Fee",
-            "Monthly Account fee": "Monthly Account Fee",
-            "Monthly facility fee": "Monthly Facility Fee",
-            "Intl payment fee": "International Payment Fee"
-
-        },
-        "REVERSAL OF  MONTHLY MANAGEMENT FEE": {
-            "NaN": "Monthly Account Fee"
-        },
-        "Debit order": {
-            "DISCINSURE4003608219": "Discovery Insurance",
-            "DISCINSURE4000999536": "Discovery Insurance",
-            "DISCLIFE": "Life Insurance",
-            "DISC INVT 1110509344": "Discovery Invest (RA)"
-        },
-        "MAGTAPE CREDIT": {
-            "Europcar": "Europcar"
+    "Transaction Map": {
+        "Payments": {
+            "Fuel": {
+                "Engen": [
+                    "ENGEN BBQ DOWNS",
+                    "ENGEN Precinct",
+                    "ENGEN CATO RIDGE ON",
+                    "ENGEN BERGVIEW ONE",
+                    "ENGEN KYALAMI CONVENIE KYALAMI"
+                ],
+                "BP": [
+                    "BP MELROSE",
+                    "BP RIDGE OASIS",
+                    "BP BIRNAM",
+                    "BP Midrand"
+                ],
+                "Shell": [
+                    "SHELL SUNNINGHILL"
+                ]
+            },
+            "Groceries": {
+                "Woolworths": [
+                    "WOOLWORTHS",
+                    "WOOLWORTHS MELROSE ARC SANDTON"
+                ],
+                "Checkers": [
+                    "Checkers"
+                ],
+                "Pick n Pay": [
+                    "Pick n Pay",
+                    "PnP Fam Midway Mews",
+                    "Pnp Exp Birnam Park"
+                ],
+                "Spar": [
+                    "SuperSpar"
+                ],
+                "Food Lovers": [
+                    "FLM CHILLI ON TOP",
+                    "FLM WATERFALL RIDGE",
+                    "FLM ML Waterfall Ridge MIDRAND"
+                ],
+                "Berliner": [
+                    "THE BERLINER BUTCHERY S JOHANNESBURG"
+                ]
+            },
+            "Eating Out": {
+                "Mr D": [
+                    "MR D FOOD"
+                ],
+                "Uber Eats": [
+                    "Uber Eats"
+                ],
+                "Chicken Licken": [
+                    "CHICKEN LICKE MIDWAY MEWS GAUTENG"
+                ],
+                "Mochachos": [
+                    "MOCHACHOS"
+                ],
+                "Nandos": [
+                    "Nandos"
+                ],
+                "KFC": [
+                    "KFC VORN464943 Halfway House"
+                ],
+                "Spur": [
+                    "SPUR TAKE AWAY",
+                    "ROCKY MOUNTAIN SPUR",
+                    "LONE CREEK SPUR GAUTENG"
+                ],
+                "Yung Chen": [
+                    "YUNG CHEN TAKEAWAYS"
+                ],
+                "Kung Fu Kitchen": [
+                    "KUNG FU KITCHEN MIDRAND"
+                ],
+                "Simply Asia": [
+                    "SIMPLY ASIA SOUTHDO"
+                ],
+                "Rong Hing": [
+                    "RONG HING CHINESE"
+                ],
+                "Golden Rose": [
+                    "GOLDEN ROSE Johannesburg"
+                ],
+                "Pizza Del Forno": [
+                    "PIZZA DEL FORNO SUNNING"
+                ],
+                "Mc Donalds": [
+                    "McDonalds",
+                    "MCD Waterfall",
+                    "MCD Mall of Africa",
+                    "MCD Chilli on",
+                    "MCDONALDS CHILLI ON"
+                ],
+                "Casa das Natas (Sandton)": [
+                    "CASA DAS NATAS SAND"
+                ],
+                "Casa Das Natas": [
+                    "CASA DAS NATAS MALL OF JOHANNESBURG"
+                ],
+                "Krispy Kreme": [
+                    "KRISPY KREME"
+                ],
+                "Chateau Gateaux": [
+                    "CHATEAU GATEAUX WAT"
+                ],
+                "Haagen Dazs": [
+                    "HAAGEN DAZS MIDRAN"
+                ],
+                "Streatery": [
+                    "Streatery"
+                ],
+                "Ozzy's Kitchen": [
+                    "OZZYS KITCHEN WYNBERG"
+                ],
+                "Fireroom": [
+                    "FIREROOM MALL OF AFRICA"
+                ],
+                "Swiss Country Club": [
+                    "THE COURIER RESTAURANT Johannesburg"
+                ]
+            },
+            "Healthcare": {
+                "Logan Doctor": ["DR VINOLA NAIDOO INC PRETORIA"]
+            },
+            "Pharma": {
+                "Clicks": ["Clicks"],
+                "Dischem": ["Dischem"]
+            },
+            "Kids": {
+                "Toys": [
+                    "TOYZONE WATERFALL VORNA VALLEY",
+                    "CRAZY STORE VICTORY PA VICTORY PAR",
+                    "TOYS R US MALL OF AFRI JOHANNESBURG",
+                    "THE CRAZY STORE XMIDRA MIDRAND"
+                ],
+                "Bounce": ["BOUNCE INC - FOURWAYS SANDTON"]
+            },
+            "Gifts": {
+                "Jewlery": ["Yoco   *EST ELLE Jewel Fourways"]
+            },
+            "Transport": {
+                "Wash": ["PLUSH MELROSE ARCH JOHANNESBURG"],
+                "Uber": ["UBER SA help.uber.com JOHANNESBURG"],
+                "Tolls": [
+                    "LESOTHO REVENUE AUTHORITY MASERU",
+                    "DE HOEK TOLL PLAZA Heidelberg"
+                ],
+                "Parking": [
+                    "FEDERAL PARKING SERVICES FOURWAYS",
+                    "SANDTON CITY PARKING SANDTON"
+                ]
+            },
+            "Self Care": {
+                "Sorbet": ["SORBET MALL OF AFRICA Halfway House"]
+            },
+            "Travel": {
+                "Cruising": ["MSC SPLENDIDA PARIS"]
+            },
+            "Services": {
+                "Apple": ["APPLE.COM/BI"]
+            }
         },
         "Online": {
-            "Dlocal *SHEIN COM": "Shein"
+            "Shopping": {
+                "Takealot": ["Takealo*t"]
+            },
+            "Transport": {
+                "Uber" : ["Uber Rides"],
+                "Licencing": ["PayGate*Q4YOU ONLINE P"]
+            },
+            "Groceries": {
+                "Checkers Delivery Tips": ["Checkers Sixty60 Tips"],
+                "Checkers": ["Checkers Sixty60"]
+            },
+            "Eating Out": {
+                "Uber": ["Uber Eats"],
+                "Mr D": ["MR D FOOD"]
+            },
+            "Clothing": {
+                "Shein": ["Dlocal *SHEIN COM"],
+                "Superbalist": ["Superbalist.com"],
+                "Mr Price": ["MRP E-COMMERCE"]
+            },
+            "Study Buddy": {
+                "Server Cost": ["PYTHONANYWHERE"],
+                "Research": ["CHEGG  ORDER"]
+            },
+            "Entertainment": {
+                "Playstation Network": ["PlaystationNetwork"],
+                "Computicket": ["COMPUTICKET"]
+                },
+            "Service": {
+                "Tax Returns": ["Osidon"],
+                "Business Registration": ["PAYFAST*Govchain"],
+                "Courier": ["PAYFAST*The Courier Gu"]
+            },
+            "Vacation": {
+                "Accomodation": ["AIRBNB * HMWQKACSJW"],
+                "Flights": ["FlySafair"]
+            },
+            "???": {
+                "Uber (Eats or Rides?)": ["Uber"]
+            }
+        },
+        "Fee": {
+            "Bank Fees": {
+                "Vitality Money Premium": ["Vitality Money Premium"],
+                "Credit Service Fee": [
+                    "Credit Service Fee",
+                    "#MONTHLY CREDIT FEE"
+                ],
+                "Monthly Account Fee": [
+                    "Monthly Account Fee",
+                    "#SERVICE FEES"
+                ],
+                "Monthly Facility Fee": ["Monthly Facility Fee"],
+                "Failed Transaction Fee": [
+                    "Returned debit order fee",
+                    "Txn Declined Fee"
+                ],
+                "International Payment Fee": [
+                    "International Payment Fee",
+                    "Intl payment fee",
+                    "#INT PYMT FEE"
+                ]
+            }
+        },
+        "Debit order": {
+            "Insurance": {
+                "Discovery Insurance": [
+                    "DISCINSURE4003608219",
+                    "DISCINSURE4000999536",
+                    "INSURE ACT4003608219"
+                ]
+            },
+            "Investment": {
+                "Life Insurance": ["DISCLIFE"],
+                "Discovery Invest (RA)": ["DISC INVT 1110509344"]
+            }
         },
         "Interest": {
-
-            "Interest Charged at 21.00%": "Interest @21.00%",
-            "Interest Charged at 22.25%": "Interest @22.25%",
-            "Dynamic interest boost at 1.50%": "Interest Boost @1.5%",
-            "Dynamic interest boost adjustment at 1.50%": "Interest Boost adjustment @1.5%"
+            "Interest": {
+                "Interest Earned": [
+                    "Interest Earned at 1.00%",
+                    "Interest Earned at 3.00%",
+                    "Interest Earned at 3.50%"
+                ],
+                "Interest Charged": [
+                    "Interest Charged at 21.00%",
+                    "Interest charged at 21.25%-21.75%",
+                    "Interest Charged at 21.75%",
+                    "Interest Charged at 22.25%"
+                ],
+                "Interest Boost?": [
+                    "Dynamic interest boost at 0.50%",
+                    "Dynamic interest boost at 1.50%",
+                    "Dynamic interest boost adjustment at 1.50%"]
+            }
         },
-        "Reward": {
-            "Dynamic interest cashback at 2.00%": "Interest Cashback @2.00%",
-            "Dynamic interest cashback at 7.00%":"Interest Cashback @7.00%"
+        "EFT": {
+            "Transfer": {
+                "Credit Card Payment": ["CR CARD PAYMENT"]
+            },
+            "???": {
+                "Insurance?": ["INSURECASH", "INT PBACK"]
+            },
+            "Wedding": {
+                "Wedding": ["Wedding gift", "Wedding Dance Lessons", "Wedding dress", "Wedding Makeup", "Amari - Wedding", "Wedding Drone"]
+            }
         },
-        "Transfer": {
-            "Transfer": "Transfer"
+        "Card on file": {
+            "Declined Fee": {
+                "Transaction Declined Fee": ["Txn Declined Fee"]
+            },
+            "Study Buddy": {
+                "Server Cost": ["WWW.HEROKU.CO","PYTHONANYWHERE"]
+            },
+            "Entertainment": {
+                "Playstation Network": ["PlaystationNetwork"]
+            }
+        },
+        "MEDICAL AID REFUND": {
+            "Medical": {
+                "Medical Aid Refund": [
+                    "DISC MEMB 0004155849"
+                ]
+            }
+        },
+        "Cash": {
+            "Groceries": {
+                "Woolworths": ["Woolworths"],
+                "Pick n Pay": ["Pick n Pay"]
+            },
+            "Pharma": {
+                "Clicks": ["Clicks"],
+                "Dischem": ["Dischem"]
+            },
+            "Eating Out": {
+                "Mc Donalds": ["McDonalds"],
+                "Streatery": ["Streatery"]
+            },
+            "Vailet": {
+                "Vailet": ["Vailet"]
+            },
+            "Grace": {
+                "Grace": ["Grace"]
+            },
+            "School Fees": {
+                "Kyalami Kids": ["Kyalami Kids"]
+            },
+            "Extra Murals": {
+                "Little Kickers" : ["Little Kickers"]
+            },
+            "Fuel": {
+                "BP": ["BP Midrand"]
+            },
+            "Cash Deposit": {
+                "aCoin": ["aCoin"]
+            },
+            "Other": {
+                "Wig": ["China Mall - Wig"],
+                "Parking": ["Airport Parking"]
+            }
         }
     }
 }

@@ -1,0 +1,18 @@
+,Transaction Type,Count
+0,Apple Pay,414
+1,Online,138
+2,POS Purchase,119
+3,Fee,86
+4,Debit order,64
+5,Interest,32
+6,EFT,25
+7,Debit Order,21
+8,Reward,17
+9,Card on file,17
+10,Transfer,8
+11,MEDICAL AID REFUND,6
+12,MONTHLY MANAGEMENT FEE,6
+13,Adjustment,3
+14,REVERSAL OF MONTHLY MANAGEMENT FEE,1
+15,Pending,1
+16,MAGTAPE CREDIT,1
