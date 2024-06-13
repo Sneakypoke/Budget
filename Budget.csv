@@ -1,6 +1,6 @@
 Date,Description,Amount,Category,Account Name
-2024/06/03,SCHEDULED PYMT FROM   SU SCHOOL FEES,3196.0,Unknown,FNB Savings Account
-2024/06/01,BYC DEBIT             62638837023,-20.02,Unknown,FNB Savings Account
+2024/06/03,SCHEDULED PYMT FROM   SU SCHOOL FEES,3196.0,School Fees,FNB Savings Account
+2024/06/01,BYC DEBIT             62638837023,-20.02,Savings,FNB Savings Account
 2024/06/01,DISCBANK  00000017275813806,-13500.0,Unknown,FNB Savings Account
 2024/05/31,299.99 APPLE.COM/BI 410588*6433  29 MAY,-299.99,Services,FNB Savings Account
 2024/05/30,FUSION INTEREST REBATE,5.39,Unknown,FNB Savings Account
@@ -11,18 +11,18 @@ Date,Description,Amount,Category,Account Name
 2024/05/28,#INT PYMT FEE-109.99 APPL,-2.2,Bank Fees,FNB Savings Account
 2024/05/28,109.99 APPLE.COM/BI 410588*6433  27 MAY,-109.99,Services,FNB Savings Account
 2024/05/27,FNB OB PMT            CDP PAYROLL,13542.88,Unknown,FNB Savings Account
-2024/05/25,BYC DEBIT             62638837023,-31.81,Unknown,FNB Savings Account
+2024/05/25,BYC DEBIT             62638837023,-31.81,Savings,FNB Savings Account
 2024/05/23,BP MELROSE          410588*6433  21 MAY,-300.0,Fuel,FNB Savings Account
 2024/05/21,ENGEN BBQ DOWNS     410588*6433  19 MAY,-991.04,Fuel,FNB Savings Account
 2024/05/21,COUCH,-10000.0,Unknown,FNB Savings Account
 2024/05/21,SMART-AP PREPAID      AIRTIME 27614673585,-189.0,Unknown,FNB Savings Account
 2024/05/20,37.18 ADOBE  *ADOBE 410588*6433  17 MAY,-694.15,Unknown,FNB Savings Account
-2024/05/18,BYC DEBIT             62638837023,-10.5,Unknown,FNB Savings Account
+2024/05/18,BYC DEBIT             62638837023,-10.5,Savings,FNB Savings Account
 2024/05/16,MCD Waterfall (0677 410588*6433  14 MAY,-331.5,Eating Out,FNB Savings Account
 2024/05/15,FOUNDERS  SD10051398 240515,-8850.0,Unknown,FNB Savings Account
-2024/05/11,BYC DEBIT             62638837023,-73.81,Unknown,FNB Savings Account
+2024/05/11,BYC DEBIT             62638837023,-73.81,Savings,FNB Savings Account
 2024/05/11,ENGEN BBQ DOWNS     410588*6433  09 MAY,-488.38,Fuel,FNB Savings Account
-2024/05/11,M BRAUDE CONSULTING,20000.0,Unknown,FNB Savings Account
+2024/05/11,M BRAUDE CONSULTING,20000.0,Income,FNB Savings Account
 2024/05/08,MOCHACHOS           410588*6433  05 MAY,-292.5,Eating Out,FNB Savings Account
 2024/05/08,SuperSpar Vorna Val 410588*6433  06 MAY,-159.09,Groceries,FNB Savings Account
 2024/05/07,#INT PYMT FEE-199.99 APPL,-4.0,Bank Fees,FNB Savings Account
@@ -30,7 +30,7 @@ Date,Description,Amount,Category,Account Name
 2024/05/07,MCD Waterfall (0677 410588*6433  04 MAY,-391.6,Eating Out,FNB Savings Account
 2024/05/07,COJ CITY PARK       410588*6433  04 MAY,-326.5,Unknown,FNB Savings Account
 2024/05/07,SuperSpar Vorna Val 410588*6433  05 MAY,-82.13,Groceries,FNB Savings Account
-2024/05/04,BYC DEBIT             62638837023,-51.01,Unknown,FNB Savings Account
+2024/05/04,BYC DEBIT             62638837023,-51.01,Savings,FNB Savings Account
 2024/05/04,SIMPLY ASIA SOUTHDO 410588*6433  30 APR,-368.0,Eating Out,FNB Savings Account
 2024/05/04,MCD Mall of Africa( 410588*6433  30 APR,-98.9,Eating Out,FNB Savings Account
 2024/05/03,TASH,-500.0,Unknown,FNB Savings Account
@@ -41,16 +41,16 @@ Date,Description,Amount,Category,Account Name
 2024/04/30,#MONTHLY ACCOUNT FEE,-230.0,Bank Fees,FNB Savings Account
 2024/04/29,#INT PYMT FEE-109.99 APPL,-2.2,Bank Fees,FNB Savings Account
 2024/04/29,109.99 APPLE.COM/BI 410588*6433  27 APR,-109.99,Services,FNB Savings Account
-2024/04/26,BYC DEBIT             62638837023,-40.5,Unknown,FNB Savings Account
+2024/04/26,BYC DEBIT             62638837023,-40.5,Savings,FNB Savings Account
 2024/04/26,CASA DAS NATAS SAND 410588*6433  23 APR,-155.0,Eating Out,FNB Savings Account
 2024/04/26,AB BRAUDE,10000.0,Unknown,FNB Savings Account
 2024/04/25,MCDONALDS CHILLI ON 410588*6433  22 APR,-161.7,Eating Out,FNB Savings Account
 2024/04/25,FNB OB PMT            CDP PAYROLL,13542.87,Unknown,FNB Savings Account
-2024/04/25,FIRESTREAM,-799.0,Unknown,FNB Savings Account
+2024/04/25,FIRESTREAM,-799.0,Services,FNB Savings Account
 2024/04/23,#INT PYMT FEE-379.00 PLAY,-7.58,Bank Fees,FNB Savings Account
 2024/04/23,379.00 PLAYSTATIONN 410588*6433  21 APR,-379.0,Unknown,FNB Savings Account
 2024/04/23,ENGEN BBQ DOWNS     410588*6433  20 APR,-223.8,Fuel,FNB Savings Account
-2024/04/20,BYC DEBIT             62638837023,-30.77,Unknown,FNB Savings Account
+2024/04/20,BYC DEBIT             62638837023,-30.77,Savings,FNB Savings Account
 2024/04/19,31.86 ADOBE  *ADOBE 410588*6433  17 APR,-621.23,Unknown,FNB Savings Account
 2024/04/19,TAPTUCK             410588*6433  16 APR,-200.0,Unknown,FNB Savings Account
 2024/04/17,POWERBALL WINNINGS VODSLQDPKF1L,38.6,Unknown,FNB Savings Account
@@ -59,7 +59,7 @@ Date,Description,Amount,Category,Account Name
 2024/04/16,POWERBALL PURCHASE    POWERBALL PURCHASE,-45.0,Unknown,FNB Savings Account
 2024/04/15,130.00 STEAMGAMES.C 410588*6433  12 APR,-130.0,Unknown,FNB Savings Account
 2024/04/15,FOUNDERS  SD10051398 240415,-8850.0,Unknown,FNB Savings Account
-2024/04/13,BYC DEBIT             62638837023,-90.75,Unknown,FNB Savings Account
+2024/04/13,BYC DEBIT             62638837023,-90.75,Savings,FNB Savings Account
 2024/04/12,WOOLWORTHS          410588*6433  10 APR,-364.92,Groceries,FNB Savings Account
 2024/04/11,Takealo*t           410588*6433  05 APR,-2658.0,Unknown,FNB Savings Account
 2024/04/11,CHATEAU GATEAUX WAT 410588*6433  08 APR,-44.0,Eating Out,FNB Savings Account
@@ -67,12 +67,12 @@ Date,Description,Amount,Category,Account Name
 2024/04/10,MCD Waterfall (0677 410588*6433  08 APR,-218.5,Eating Out,FNB Savings Account
 2024/04/10,RONG HING CHINESE F 410588*6433  07 APR,-132.0,Eating Out,FNB Savings Account
 2024/04/10,LOGAN BIRTHDAY,-1000.0,Unknown,FNB Savings Account
-2024/04/10,FNB APP PAYMENT FROM  SU SCHOOL FEES,1800.0,Unknown,FNB Savings Account
+2024/04/10,FNB APP PAYMENT FROM  SU SCHOOL FEES,1800.0,School Fees,FNB Savings Account
 2024/04/09,PnP Fam Midway Mews 410588*6433  07 APR,-109.99,Groceries,FNB Savings Account
 2024/04/09,SuperSpar Vorna Val 410588*6433  07 APR,-87.96,Groceries,FNB Savings Account
 2024/04/08,#INT PYMT FEE-199.99 APPL,-4.0,Bank Fees,FNB Savings Account
 2024/04/08,199.99 APPLE.COM/BI 410588*6433  06 APR,-199.99,Services,FNB Savings Account
-2024/04/06,BYC DEBIT             62638837023,-244.82,Unknown,FNB Savings Account
+2024/04/06,BYC DEBIT             62638837023,-244.82,Savings,FNB Savings Account
 2024/04/05,Takealo*t           410588*6433  03 APR,-2527.0,Unknown,FNB Savings Account
 2024/04/05,WOOLWORTHS          410588*6433  03 APR,-778.64,Groceries,FNB Savings Account
 2024/04/04,BP RIDGE OASIS      410588*6433  01 APR,-1560.24,Fuel,FNB Savings Account
@@ -90,12 +90,12 @@ Date,Description,Amount,Category,Account Name
 2024/04/04,Pnp Exp Birnam Park 410588*6433  02 APR,-30.8,Groceries,FNB Savings Account
 2024/04/04,WILD COAST SUN HOTE 410588*6433  31 MAR,-20.0,Unknown,FNB Savings Account
 2024/04/04,WILD COAST SUN HOTE 410588*6433  31 MAR,-20.0,Unknown,FNB Savings Account
-2024/04/04,M BRAUDE CONSULTING,20000.0,Unknown,FNB Savings Account
+2024/04/04,M BRAUDE CONSULTING,20000.0,Income,FNB Savings Account
 2024/04/04,TASH HAIR,-1300.0,Unknown,FNB Savings Account
 2024/04/04,COUNSELLING,-580.0,Unknown,FNB Savings Account
 2024/04/04,TOILET HIRE,-1322.5,Unknown,FNB Savings Account
 2024/04/03,PLEX BOXEE,-2400.0,Unknown,FNB Savings Account
-2024/04/03,FIRESTREAM,-799.0,Unknown,FNB Savings Account
+2024/04/03,FIRESTREAM,-799.0,Services,FNB Savings Account
 2024/04/02,ROCKY MOUNTAIN SPUR 410588*6433  28 MAR,-600.0,Eating Out,FNB Savings Account
 2024/04/02,THE MAGNOLIA FARM T 410588*6433  29 MAR,-508.5,Unknown,FNB Savings Account
 2024/04/02,SUNSHINE CLOTHING   410588*6433  29 MAR,-240.0,Unknown,FNB Savings Account
@@ -105,7 +105,7 @@ Date,Description,Amount,Category,Account Name
 2024/04/02,SENTRA PORT EDWAR37 410588*6433  29 MAR,-24.99,Unknown,FNB Savings Account
 2024/03/28,#INT PYMT FEE-109.99 APPL,-2.2,Bank Fees,FNB Savings Account
 2024/03/30,FUSION INTEREST REBATE,13.07,Unknown,FNB Savings Account
-2024/03/30,BYC DEBIT             62638837023,-162.83,Unknown,FNB Savings Account
+2024/03/30,BYC DEBIT             62638837023,-162.83,Savings,FNB Savings Account
 2024/03/30,#SERVICE FEES,-2.7,Bank Fees,FNB Savings Account
 2024/03/30,#MONTHLY ACCOUNT FEE,-230.0,Bank Fees,FNB Savings Account
 2024/03/30,#MONTHLY CREDIT FEE,-69.0,Bank Fees,FNB Savings Account
@@ -116,13 +116,13 @@ Date,Description,Amount,Category,Account Name
 2024/03/30,ENGEN BERGVIEW ONE  410588*6433  28 MAR,-219.5,Fuel,FNB Savings Account
 2024/03/30,YUNG CHEN TAKEAWAYS 410588*6433  27 MAR,-73.0,Eating Out,FNB Savings Account
 2024/03/30,ACCOMMODATION,-1595.0,Unknown,FNB Savings Account
-2024/06/10,BWH RIVONIA         410588*6433  07 JUN,-1519.0,Unknown,FNB Savings Account
+2024/06/10,BWH RIVONIA         410588*6433  07 JUN,-1519.0,???,FNB Savings Account
 2024/06/07,#INT PYMT FEE-199.99 APPL,-4.0,Bank Fees,FNB Savings Account
-2024/06/08,BYC DEBIT             62638837023,-10.01,Unknown,FNB Savings Account
+2024/06/08,BYC DEBIT             62638837023,-10.01,Savings,FNB Savings Account
 2024/06/07,199.99 APPLE.COM/BI 410588*6433  06 JUN,-199.99,Services,FNB Savings Account
-2024/06/06,M BRAUDE CONSULTING,20000.0,Unknown,FNB Savings Account
-2024/06/06,CTM - BATHROOM SINK,-5669.4,Unknown,FNB Savings Account
-2024/06/05,FIRESTREAM,-799.0,Unknown,FNB Savings Account
+2024/06/06,M BRAUDE CONSULTING,20000.0,Income,FNB Savings Account
+2024/06/06,CTM - BATHROOM SINK,-5669.4,Home,FNB Savings Account
+2024/06/05,FIRESTREAM,-799.0,Services,FNB Savings Account
 2024/05/31,#INT PYMT FEE-299.99 APPL,-6.0,Bank Fees,FNB Savings Account
 2024/05/29,THE BERLINER BUTCHERY S JOHANNESBURG,-592.6,Groceries,Discovery Credit Card
 2024/05/27,PYTHONANYWHERE 12.00 USD,-228.8,Study Buddy,Discovery Credit Card

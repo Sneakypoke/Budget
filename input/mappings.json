@@ -1,6 +1,10 @@
 {
     "Transaction Map": {
         "Payments": {
+            "Income": {
+                "aCoin": ["M BRAUDE CONSULTING"],
+                "Kickback": ["A BRAUDE"]
+            },
             "Fuel": {
                 "Engen": [
                     "ENGEN BBQ DOWNS",
@@ -128,6 +132,9 @@
                 "Clicks": ["Clicks"],
                 "Dischem": ["Dischem"]
             },
+            "School Fees": {
+                "Pinnacle Collage": ["SU SCHOOL FEES"]
+            },
             "Kids": {
                 "Toys": [
                     "TOYZONE WATERFALL VORNA VALLEY",
@@ -159,7 +166,20 @@
                 "Cruising": ["MSC SPLENDIDA PARIS"]
             },
             "Services": {
-                "Apple": ["APPLE.COM/BI"]
+                "Apple": ["APPLE.COM/BI"],
+                "Internet": ["FIRESTREAM"]
+            },
+            "Savings": {
+                "Bank your Change": ["BYC DEBIT"]
+            },
+            "Home": {
+                "Renovations": [" CTM - BATHROOM SINK"]
+            },
+            "???": {
+                "???": [
+                    "Buffalo Logistics Kempton ZA",
+                    "BWH RIVONIA         410588*6433"
+                ]
             }
         },
         "Online": {
@@ -238,6 +258,9 @@
             "Investment": {
                 "Life Insurance": ["DISCLIFE"],
                 "Discovery Invest (RA)": ["DISC INVT 1110509344"]
+            },
+            "Card Repayment": {
+                "Discovery Credit Card Repayment": ["DISCBANK  00000017275813806"]
             }
         },
         "Interest": {

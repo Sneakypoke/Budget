@@ -261,10 +261,10 @@ def main():
 
     transaction_statistics(processed_df)
 
-    cash_transactions = processed_df[((processed_df['Category'] == 'Unknown') | (processed_df['Payment'] == 'Unknown'))].sort_values(by='Date', ascending=False)
+    cash_transactions = processed_df[((processed_df['Category'] == 'Unknown') | (processed_df['Payment'] == 'Unknown'))].sort_values(by='Date', ascending=False).reset_index(drop=True)
 
     print(cash_transactions[
-              ["Transaction Type", "Description", "Date"]])
+              ["Transaction Type", "Description"]])
 
     return df_fnb, df_discovery, df_standard_bank, df_cash, processed_df
 
